@@ -2,12 +2,9 @@
 I have created all the database objects in the following directory structure.  Create a Database in SQL Server Called Mushrooms
 
 Database--|
-	  | -- Security -- |
-          |                | -- Schemas
-          | -- Data
-          |
-          | -- Stored Procedures
-          |
+	  | -- Security -- | -- Schemas
+          | -- Data         
+          | -- Stored Procedures         
           | -- Tables
 
 Create the objects in the following order.

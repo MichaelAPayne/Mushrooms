@@ -1,4 +1,5 @@
 # Mushrooms
+
 I have created all the database objects in the following directory structure.  Create a Database in SQL Server Called Mushrooms
 
 Database--|
@@ -14,6 +15,7 @@ Create the objects in the following order.
 4. Data
 
 The ETL job is created in Visual Studion SSIS. You can run the Package from Visual Studion or deploy to SQL Server from Visual Studio.
+Copy the Assignment Senior Data Engn- agaricus-lepiota - send.csv to C:\temp. as this is where the source file is expected to be located.
 
 The Reports are encapsulated in stored procedures
 

@@ -1,0 +1,6 @@
+INSERT INTO [Dimension].[Population] ([PopulationId], [PopulationDescription]) VALUES ('a', 'Abundant')
+INSERT INTO [Dimension].[Population] ([PopulationId], [PopulationDescription]) VALUES ('c', 'Clustered')
+INSERT INTO [Dimension].[Population] ([PopulationId], [PopulationDescription]) VALUES ('n', 'Numerous')
+INSERT INTO [Dimension].[Population] ([PopulationId], [PopulationDescription]) VALUES ('s', 'Scattered')
+INSERT INTO [Dimension].[Population] ([PopulationId], [PopulationDescription]) VALUES ('v', 'Several')
+INSERT INTO [Dimension].[Population] ([PopulationId], [PopulationDescription]) VALUES ('y', 'Solitary')

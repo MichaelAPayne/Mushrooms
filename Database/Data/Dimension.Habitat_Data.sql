@@ -1,0 +1,7 @@
+INSERT INTO [Dimension].[Habitat] ([HabitatId], [HabitatDescription]) VALUES ('d', 'Woods')
+INSERT INTO [Dimension].[Habitat] ([HabitatId], [HabitatDescription]) VALUES ('g', 'Grasses')
+INSERT INTO [Dimension].[Habitat] ([HabitatId], [HabitatDescription]) VALUES ('l', 'Leaves')
+INSERT INTO [Dimension].[Habitat] ([HabitatId], [HabitatDescription]) VALUES ('m', 'Meadows')
+INSERT INTO [Dimension].[Habitat] ([HabitatId], [HabitatDescription]) VALUES ('p', 'Paths')
+INSERT INTO [Dimension].[Habitat] ([HabitatId], [HabitatDescription]) VALUES ('u', 'Urban')
+INSERT INTO [Dimension].[Habitat] ([HabitatId], [HabitatDescription]) VALUES ('w', 'Waste')

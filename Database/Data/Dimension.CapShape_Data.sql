@@ -1,0 +1,5 @@
+INSERT INTO [Dimension].[CapShape] ([CapShapeId], [CapShapeDescription]) VALUES ('b', 'Bell')
+INSERT INTO [Dimension].[CapShape] ([CapShapeId], [CapShapeDescription]) VALUES ('c', 'Conical')
+INSERT INTO [Dimension].[CapShape] ([CapShapeId], [CapShapeDescription]) VALUES ('f', 'Flat')
+INSERT INTO [Dimension].[CapShape] ([CapShapeId], [CapShapeDescription]) VALUES ('k', 'Knobbed')
+INSERT INTO [Dimension].[CapShape] ([CapShapeId], [CapShapeDescription]) VALUES ('s', 'Sunken')

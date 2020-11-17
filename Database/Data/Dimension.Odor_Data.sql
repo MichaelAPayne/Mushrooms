@@ -1,0 +1,8 @@
+INSERT INTO [Dimension].[Odor] ([OdorId], [OdorDescription]) VALUES ('a', 'Almond')
+INSERT INTO [Dimension].[Odor] ([OdorId], [OdorDescription]) VALUES ('c', 'Creosote')
+INSERT INTO [Dimension].[Odor] ([OdorId], [OdorDescription]) VALUES ('f', 'Foul')
+INSERT INTO [Dimension].[Odor] ([OdorId], [OdorDescription]) VALUES ('l', 'Anise')
+INSERT INTO [Dimension].[Odor] ([OdorId], [OdorDescription]) VALUES ('m', 'Musty')
+INSERT INTO [Dimension].[Odor] ([OdorId], [OdorDescription]) VALUES ('p', 'Pungent')
+INSERT INTO [Dimension].[Odor] ([OdorId], [OdorDescription]) VALUES ('s', 'Spicy')
+INSERT INTO [Dimension].[Odor] ([OdorId], [OdorDescription]) VALUES ('y', 'Fishy')

@@ -1,0 +1,1174 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="11/13/2020 10:21:25 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="POSEIDON"
+  DTS:CreatorName="POSEIDON\Micha"
+  DTS:DTSID="{51430691-60BA-4823-A9AE-1CA5688E09F1}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="15.0.2000.132"
+  DTS:LocaleID="2057"
+  DTS:ObjectName="Package"
+  DTS:PackageType="5"
+  DTS:VersionBuild="15"
+  DTS:VersionGUID="{A1CD238B-5C62-40C1-B89B-B88DF4DB689B}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{A152423E-CE2F-4A8C-AD77-9C2D344E102A}"
+      DTS:ObjectName="Flat File Connection Manager">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="2057"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Temp\Assignment Senior Data Engn- agaricus-lepiota - send.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="1"
+              DTS:DTSID="{8CB89C8D-1556-49FF-8132-C340EA6C3ED7}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="3"
+              DTS:DTSID="{0ACB2068-F812-4EFD-92A3-1EE504C68CAE}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="5"
+              DTS:DTSID="{846C9CC5-813D-4E6E-8952-BC10B0DD13AD}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="8"
+              DTS:DTSID="{424C642F-0C9C-4B31-80F7-D37DF1D5A303}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="9"
+              DTS:DTSID="{402DF586-7D17-43FA-B7FD-E69E647767B2}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="14"
+              DTS:DTSID="{E4ABA8B2-A7FA-49E4-BDA5-538C6E54DBA2}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="17"
+              DTS:DTSID="{150B15EB-402A-4ACC-8013-A39215803B2C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="19"
+              DTS:DTSID="{C93C48E7-BDEE-4E70-9BB4-CD3768238A08}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="20"
+              DTS:DTSID="{F5098555-1B6D-48F2-85CE-AC6313694406}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="21"
+              DTS:DTSID="{A3A7A1F6-CD86-4CBC-88AC-F8E2E1F972BF}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="22"
+              DTS:DTSID="{2E49B614-9EA1-4B03-900C-2C969C2F4020}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="lat"
+              DTS:DTSID="{15F57EF4-75E0-4CBD-B1A3-BF1E202169B4}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="lon"
+              DTS:DTSID="{F325BF58-7AC4-422E-B438-0F1D6CFF92FD}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Time"
+              DTS:DTSID="{EFFDC883-DDF4-4F69-B07F-C1B727C02F42}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[LocalHost.Mushrooms]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{B6E8D46A-3AC0-4E4C-AAC3-C8FF6588B1D2}"
+      DTS:ObjectName="LocalHost.Mushrooms">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=.;Initial Catalog=Mushrooms;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Populate Fact Table"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{C08DC936-9AF4-441D-82F8-B45A5621E728}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Populate Fact Table"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{B6E8D46A-3AC0-4E4C-AAC3-C8FF6588B1D2}"
+          SQLTask:BypassPrepare="False"
+          SQLTask:SqlStatementSource="[Integration].[PopulateMushrooms]" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Populate Staging Table"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{D1BB07EF-02D7-47F6-809E-C5D011AC4B02}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Populate Staging Table"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Populate Staging Table\Flat File Source"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Source"
+              localeId="2057"
+              name="Flat File Source"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether zero-length columns are treated as null."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Populate Staging Table\Flat File Source.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Flat File Connection Manager]"
+                  connectionManagerRefId="Package.ConnectionManagers[Flat File Connection Manager]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output]"
+                  name="Flat File Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[1]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[1]"
+                      length="50"
+                      lineageId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[1]"
+                      name="1"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[3]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[3]"
+                      length="50"
+                      lineageId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[3]"
+                      name="3"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[5]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[5]"
+                      length="50"
+                      lineageId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[5]"
+                      name="5"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[8]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[8]"
+                      length="50"
+                      lineageId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[8]"
+                      name="8"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[9]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[9]"
+                      length="50"
+                      lineageId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[9]"
+                      name="9"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[14]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[14]"
+                      length="50"
+                      lineageId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[14]"
+                      name="14"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[17]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[17]"
+                      length="50"
+                      lineageId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[17]"
+                      name="17"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[19]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[19]"
+                      length="50"
+                      lineageId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[19]"
+                      name="19"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[20]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[20]"
+                      length="50"
+                      lineageId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[20]"
+                      name="20"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[21]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[21]"
+                      length="50"
+                      lineageId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[21]"
+                      name="21"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[22]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[22]"
+                      length="50"
+                      lineageId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[22]"
+                      name="22"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[lat]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[lat]"
+                      length="50"
+                      lineageId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[lat]"
+                      name="lat"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[lon]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[lon]"
+                      length="50"
+                      lineageId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[lon]"
+                      name="lon"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[Time]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Time]"
+                      length="50"
+                      lineageId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[Time]"
+                      name="Time"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[1]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="1" />
+                    <externalMetadataColumn
+                      refId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[3]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="3" />
+                    <externalMetadataColumn
+                      refId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[5]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="5" />
+                    <externalMetadataColumn
+                      refId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[8]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="8" />
+                    <externalMetadataColumn
+                      refId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[9]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="9" />
+                    <externalMetadataColumn
+                      refId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[14]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="14" />
+                    <externalMetadataColumn
+                      refId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[17]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="17" />
+                    <externalMetadataColumn
+                      refId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[19]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="19" />
+                    <externalMetadataColumn
+                      refId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[20]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="20" />
+                    <externalMetadataColumn
+                      refId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[21]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="21" />
+                    <externalMetadataColumn
+                      refId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[22]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="22" />
+                    <externalMetadataColumn
+                      refId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[lat]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="lat" />
+                    <externalMetadataColumn
+                      refId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[lon]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="lon" />
+                    <externalMetadataColumn
+                      refId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Time]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Time" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Error Output]"
+                  isErrorOut="true"
+                  name="Flat File Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      codePage="1252"
+                      dataType="text"
+                      description="Flat File Source Error Output Column"
+                      lineageId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      name="Flat File Source Error Output Column" />
+                    <outputColumn
+                      refId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Populate Staging Table\OLE DB Destination"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="OLE DB Destination"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[Staging].[Mushrooms]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">true</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Populate Staging Table\OLE DB Destination.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[LocalHost.Mushrooms]"
+                  connectionManagerRefId="Package.ConnectionManagers[LocalHost.Mushrooms]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[1]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="1"
+                      externalMetadataColumnId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[1]"
+                      lineageId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[1]" />
+                    <inputColumn
+                      refId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[3]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="3"
+                      externalMetadataColumnId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[3]"
+                      lineageId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[3]" />
+                    <inputColumn
+                      refId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[5]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="5"
+                      externalMetadataColumnId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[5]"
+                      lineageId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[5]" />
+                    <inputColumn
+                      refId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[8]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="8"
+                      externalMetadataColumnId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[8]"
+                      lineageId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[8]" />
+                    <inputColumn
+                      refId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[9]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="9"
+                      externalMetadataColumnId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[9]"
+                      lineageId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[9]" />
+                    <inputColumn
+                      refId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[14]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="14"
+                      externalMetadataColumnId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[14]"
+                      lineageId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[14]" />
+                    <inputColumn
+                      refId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[17]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="17"
+                      externalMetadataColumnId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[17]"
+                      lineageId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[17]" />
+                    <inputColumn
+                      refId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[19]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="19"
+                      externalMetadataColumnId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[19]"
+                      lineageId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[19]" />
+                    <inputColumn
+                      refId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[20]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="20"
+                      externalMetadataColumnId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[20]"
+                      lineageId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[20]" />
+                    <inputColumn
+                      refId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[21]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="21"
+                      externalMetadataColumnId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[21]"
+                      lineageId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[21]" />
+                    <inputColumn
+                      refId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[22]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="22"
+                      externalMetadataColumnId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[22]"
+                      lineageId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[22]" />
+                    <inputColumn
+                      refId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[lat]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="lat"
+                      externalMetadataColumnId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[lat]"
+                      lineageId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[lat]" />
+                    <inputColumn
+                      refId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[lon]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="lon"
+                      externalMetadataColumnId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[lon]"
+                      lineageId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[lon]" />
+                    <inputColumn
+                      refId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Time]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Time"
+                      externalMetadataColumnId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Time]"
+                      lineageId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output].Columns[Time]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[1]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="1" />
+                    <externalMetadataColumn
+                      refId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[3]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="3" />
+                    <externalMetadataColumn
+                      refId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[5]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="5" />
+                    <externalMetadataColumn
+                      refId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[8]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="8" />
+                    <externalMetadataColumn
+                      refId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[9]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="9" />
+                    <externalMetadataColumn
+                      refId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[14]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="14" />
+                    <externalMetadataColumn
+                      refId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[17]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="17" />
+                    <externalMetadataColumn
+                      refId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[19]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="19" />
+                    <externalMetadataColumn
+                      refId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[20]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="20" />
+                    <externalMetadataColumn
+                      refId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[21]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="21" />
+                    <externalMetadataColumn
+                      refId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[22]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="22" />
+                    <externalMetadataColumn
+                      refId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[lat]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="lat" />
+                    <externalMetadataColumn
+                      refId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[lon]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="lon" />
+                    <externalMetadataColumn
+                      refId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Time]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Time" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Populate Staging Table\OLE DB Destination.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Populate Staging Table\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Populate Staging Table\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Populate Staging Table\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Populate Staging Table\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Populate Staging Table.Paths[Flat File Source Output]"
+              endId="Package\Populate Staging Table\OLE DB Destination.Inputs[OLE DB Destination Input]"
+              name="Flat File Source Output"
+              startId="Package\Populate Staging Table\Flat File Source.Outputs[Flat File Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Trucate Stagimg Table"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{858D1AC3-A687-4720-B40F-3EFA557A85FE}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Trucate Stagimg Table"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{B6E8D46A-3AC0-4E4C-AAC3-C8FF6588B1D2}"
+          SQLTask:IsStoredProc="True"
+          SQLTask:BypassPrepare="False"
+          SQLTask:SqlStatementSource="[Integration].[TruncateStagingTables]" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint]"
+      DTS:CreationName=""
+      DTS:DTSID="{5CBFC2C9-4E5F-4F1D-9BBF-6F3E332C0D22}"
+      DTS:From="Package\Trucate Stagimg Table"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint"
+      DTS:To="Package\Populate Staging Table" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 1]"
+      DTS:CreationName=""
+      DTS:DTSID="{B6EFD81F-463A-4AE5-AEC5-05D48DD3556A}"
+      DTS:From="Package\Populate Staging Table"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 1"
+      DTS:To="Package\Populate Fact Table" />
+  </DTS:PrecedenceConstraints>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="171.2,41.6"
+          Id="Package\Populate Fact Table"
+          TopLeft="199.230776538511,253.696978861526" />
+        <NodeLayout
+          Size="187.2,41.6"
+          Id="Package\Populate Staging Table"
+          TopLeft="111.153850230945,133.151519961485" />
+        <NodeLayout
+          Size="184.8,41.6"
+          Id="Package\Trucate Stagimg Table"
+          TopLeft="148.461543907075,57.9090930010006" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint]"
+          TopLeft="240.861543907075,99.5090930010006">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-36.1076936761305,33.6424269604842"
+              Start="0,0"
+              End="-36.1076936761305,26.1424269604842">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,12.8212134802421" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,12.8212134802421"
+                    Point2="0,16.8212134802421"
+                    Point3="-4,16.8212134802421" />
+                  <mssgle:LineSegment
+                    End="-32.1076936761305,16.8212134802421" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-32.1076936761305,16.8212134802421"
+                    Point2="-36.1076936761305,16.8212134802421"
+                    Point3="-36.1076936761305,20.8212134802421" />
+                  <mssgle:LineSegment
+                    End="-36.1076936761305,26.1424269604842" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 1]"
+          TopLeft="204.753850230945,174.751519961485">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="80.0769263075657,78.9454589000415"
+              Start="0,0"
+              End="80.0769263075657,71.4454589000415">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,35.4727294500208" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,35.4727294500208"
+                    Point2="0,39.4727294500208"
+                    Point3="4,39.4727294500208" />
+                  <mssgle:LineSegment
+                    End="76.0769263075657,39.4727294500208" />
+                  <mssgle:CubicBezierSegment
+                    Point1="76.0769263075657,39.4727294500208"
+                    Point2="80.0769263075657,39.4727294500208"
+                    Point3="80.0769263075657,43.4727294500208" />
+                  <mssgle:LineSegment
+                    End="80.0769263075657,71.4454589000415" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\Populate Staging Table">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="150.4,41.6"
+          Id="Package\Populate Staging Table\Flat File Source"
+          TopLeft="232.692316227411,90.6060638791165" />
+        <NodeLayout
+          Size="170.4,41.6"
+          Id="Package\Populate Staging Table\OLE DB Destination"
+          TopLeft="330.000012104328,279.303040392581" />
+        <EdgeLayout
+          Id="Package\Populate Staging Table.Paths[Flat File Source Output]"
+          TopLeft="307.892316227411,132.206063879116">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="107.307695876917,147.096976513464"
+              Start="0,0"
+              End="107.307695876917,139.596976513464">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,69.5484882567322" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,69.5484882567322"
+                    Point2="0,73.5484882567322"
+                    Point3="4,73.5484882567322" />
+                  <mssgle:LineSegment
+                    End="103.307695876917,73.5484882567322" />
+                  <mssgle:CubicBezierSegment
+                    Point1="103.307695876917,73.5484882567322"
+                    Point2="107.307695876917,73.5484882567322"
+                    Point3="107.307695876917,77.5484882567322" />
+                  <mssgle:LineSegment
+                    End="107.307695876917,139.596976513464" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Populate Staging Table\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

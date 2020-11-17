@@ -1,0 +1,8 @@
+INSERT INTO [Dimension].[SporePrintColour] ([SporePrintColourId], [SporePrintColourDescription]) VALUES ('h', 'Chocolate')
+INSERT INTO [Dimension].[SporePrintColour] ([SporePrintColourId], [SporePrintColourDescription]) VALUES ('k', 'Black')
+INSERT INTO [Dimension].[SporePrintColour] ([SporePrintColourId], [SporePrintColourDescription]) VALUES ('n', 'Brown')
+INSERT INTO [Dimension].[SporePrintColour] ([SporePrintColourId], [SporePrintColourDescription]) VALUES ('o', 'Orange')
+INSERT INTO [Dimension].[SporePrintColour] ([SporePrintColourId], [SporePrintColourDescription]) VALUES ('p', 'Purple')
+INSERT INTO [Dimension].[SporePrintColour] ([SporePrintColourId], [SporePrintColourDescription]) VALUES ('r', 'Green')
+INSERT INTO [Dimension].[SporePrintColour] ([SporePrintColourId], [SporePrintColourDescription]) VALUES ('w', 'White')
+INSERT INTO [Dimension].[SporePrintColour] ([SporePrintColourId], [SporePrintColourDescription]) VALUES ('y', 'Yellow')

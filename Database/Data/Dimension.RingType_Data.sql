@@ -1,0 +1,8 @@
+INSERT INTO [Dimension].[RingType] ([RingTypeId], [RingTypeDescription]) VALUES ('c', 'Cobwebby')
+INSERT INTO [Dimension].[RingType] ([RingTypeId], [RingTypeDescription]) VALUES ('e', 'Evanescent')
+INSERT INTO [Dimension].[RingType] ([RingTypeId], [RingTypeDescription]) VALUES ('f', 'Flaring')
+INSERT INTO [Dimension].[RingType] ([RingTypeId], [RingTypeDescription]) VALUES ('l', 'Large')
+INSERT INTO [Dimension].[RingType] ([RingTypeId], [RingTypeDescription]) VALUES ('n', 'None')
+INSERT INTO [Dimension].[RingType] ([RingTypeId], [RingTypeDescription]) VALUES ('p', 'Pedant')
+INSERT INTO [Dimension].[RingType] ([RingTypeId], [RingTypeDescription]) VALUES ('s', 'Sheathing')
+INSERT INTO [Dimension].[RingType] ([RingTypeId], [RingTypeDescription]) VALUES ('z', 'Zones')
